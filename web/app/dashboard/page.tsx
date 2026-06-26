@@ -122,7 +122,7 @@ export default function DashboardPage() {
       {!loading && visible.length === 0 && (
         <p className="text-gray-400">
           No signals yet at this score. The scanner on your Pi evaluates every watchlist symbol on its
-          schedule — make sure it's running and your watchlist is configured in Settings.
+          schedule — make sure it&apos;s running and your watchlist is configured in Settings.
         </p>
       )}
       <div className="space-y-3">
