@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0b0f14;
+  color: #e5e7eb;
+}
+
+.card {
+  background-color: #121823;
+  border: 1px solid #1f2937;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #22d3ee;
+  color: #0b0f14;
+  font-weight: 600;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.input {
+  background-color: #0b0f14;
+  border: 1px solid #1f2937;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  color: #e5e7eb;
+  width: 100%;
+}
+
+.label {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-bottom: 0.25rem;
+  display: block;
+}

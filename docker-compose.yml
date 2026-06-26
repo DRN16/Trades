@@ -1,0 +1,10 @@
+# Run this on your Raspberry Pi: docker compose up -d --build
+# It builds and runs the scanner as a long-lived service that restarts
+# automatically on crash or Pi reboot.
+services:
+  scanner:
+    build: ./scanner
+    container_name: trading-scanner
+    restart: unless-stopped
+    env_file:
+      - ./scanner/.env
